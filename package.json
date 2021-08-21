@@ -1,0 +1,32 @@
+{
+  "name": "usermanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "Tetyana Dyakun",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "node-env-run": "^4.0.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "joi": "^17.4.2",
+    "multer": "^1.4.3",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "sharp": "^0.29.0"
+  }
+}
